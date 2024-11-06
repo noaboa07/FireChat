@@ -31,6 +31,7 @@
 		A3E0111A2CDAD345000C29DF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		A3E011202CDAD3E3000C29DF /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
 		A3E011222CDADA8B000C29DF /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		A3E011242CDAF424000C29DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +50,7 @@
 		A3E010C92CDAC6FA000C29DF = {
 			isa = PBXGroup;
 			children = (
+				A3E011242CDAF424000C29DF /* README.md */,
 				A3E010D42CDAC6FA000C29DF /* FireChat */,
 				A3E010D32CDAC6FA000C29DF /* Products */,
 			);
