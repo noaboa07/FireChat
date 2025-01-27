@@ -1,57 +1,71 @@
 
-# Lab 6 - *FireChat*
+# FireChat - Real-time Chat Application with Firebase
 
-Submitted by: **Noah Russell** **Z23667779**
+**FireChat** is a real-time messaging app built with SwiftUI and Firebase Firestore. Leveraging Firebase’s Firestore database and real-time listeners, the app allows users to send and receive messages instantly, making it an ideal solution for interactive chat experiences. Messages are dynamically updated across devices without the need to manually refresh, offering a seamless user experience for communication. With a sleek and intuitive interface powered by SwiftUI, FireChat provides a scalable solution for building chat applications, handling all real-time synchronization and data storage through Firebase.
 
-**FireChat** is a SwiftUI-powered chat application that leverages Firebase Firestore as its backend server for real-time communication. The app allows users to send and receive text messages in a dynamic chat environment. Through Firebase’s real-time listeners and Firestore’s seamless syncing, users can interact with each other instantly across devices. With the power of Firebase, this app offers an efficient, scalable solution for real-time messaging—without the need to manage a custom backend.
+- Developer: Noah Russell
+- Development Time: Approximately 4 hours
+- Technologies Used: Swift, SwiftUI, Firebase Firestore, Firebase Authentication
 
-Time spent: **4** hours spent in total
+## Features
 
-## Required Features
+The following required features have been successfully implemented:
 
-The following **required** functionality is completed:
+- [✅] Send Messages to Firebase: Users can compose and send text messages, which are then stored in Firebase Firestore.
+- [✅] Real-time Message Updates: Messages are received in real-time, instantly updating the chat interface as new messages are posted by users.
+- [✅] Message Differentiation: Messages sent by the current user are styled differently than messages sent by other users, with changes in color and positioning to improve readability and user experience.
 
-- [✅] Create and send a text message to Firebase
-- [✅] Receive messages posted to Firebase in real-time
-- [✅] Display messages differently based on the sender (position and color change depending on whether the user sent the message or someone else did)
+## Optional Features
 
- 
-The following **optional** features are implemented:
+There are no optional features implemented yet, but here are potential features for future development:
 
-- [❌] TBD
+- [❌] Media Sharing: Implement the ability to send and receive images, videos, and other media types.
+- [❌] User Authentication: Add Firebase authentication to allow users to log in and manage their profiles.
 
-The following **additional** features are implemented:
+## Future Enhancements
 
-- [ ] List anything else that you can get done to improve the app functionality!
+In upcoming versions, I plan to add:
+
+- [🔲] User Authentication: Implement user sign-up, sign-in, and profile management using Firebase Authentication.
+- [🔲] Media Sharing: Allow users to send images, videos, and other media files.
+- [🔲] Push Notifications: Add Firebase Cloud Messaging (FCM) to notify users when they receive new messages.
 
 ## Video Walkthrough
 
-My video Walkthrough:
+Here’s a demonstration of the current functionality in the app:
 
-<img style="max-width:300px;" src="FireChat/Lab6.gif">
+<img style="max-width:300px;" src="FireChat/Lab6.gif" alt="FireChat Demo">
+GIF created with VEED.io.
 
-GIF created with VEED.io
+## Development Process
 
-## Notes
+This project utilizes Firebase Firestore for real-time data storage and synchronization. The Firebase Realtime Database powers the instant message updates across all devices.
 
-This app was built using Firebase Firestore for backend storage and real-time synchronization. The chat UI is powered by SwiftUI, with messages updating dynamically as they are posted by other users. The use of Firestore listeners allows the app to automatically update the chat interface without the need to manually refresh or reload the data.
+## Key Technologies
 
-The user interface is designed to distinguish between messages sent by the current user and others, with different colors and positioning to improve readability and enhance the user experience.
+- Firebase Firestore: Serves as the real-time backend for sending and receiving messages.
+- SwiftUI: Used to create the app’s user interface, offering a declarative approach to building UI components.
+- Firebase Authentication (future feature): To allow users to sign in and personalize the chat experience.
 
-I look forward to continuing to build on this app and adding more features such as media sharing and user authentication in future updates.
+## Challenges Faced
+
+- Real-time Synchronization: Ensuring that messages appear in real-time without delay was a critical part of the development, and required understanding of Firebase’s Firestore real-time listeners.
+- Message Formatting: Styling messages to differentiate between the user’s and other participants’ messages required careful management of message position and color styling.
+
+## Key Takeaways
+- Gained experience in integrating Firebase Firestore for real-time database functionality in a SwiftUI app.
+- Learned about the power of Firestore listeners to sync data in real-time, making the chat experience seamless for users.
+- Improved SwiftUI layout skills, especially in handling dynamic data changes.
+
+## Technologies Used
+
+- Programming Language: Swift
+- Frameworks: SwiftUI, Firebase Firestore, Firebase Authentication (for future use)
+- Development Environment: Xcode 14.0+
+- Version Control: Git, GitHub
 
 ## License
 
-    Copyright [2024] [Noah Russell]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+FireChat is licensed under the Apache License 2.0.
+You may obtain a copy of the license at:
+http://www.apache.org/licenses/LICENSE-2.0
